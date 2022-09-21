@@ -1,0 +1,119 @@
+
+
+html{font-size: 1rem;
+height: 100vh;
+background-image: url(../assets/img/thumb-1920-337461.jpg);
+background-repeat: round;
+background-attachment: fixed;
+}
+
+h1{
+    color: brown;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+p{
+    font-size: 1rem;
+    height: 10vh;
+    font-family: Monserrat,sans-serif;
+    font-weight: 500;
+}
+.header__lista {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: 2rem;
+
+}
+
+.header__nav__boton {
+    display: inline-block;
+    max-width: 7vw;
+    border: solid rgb(1, 2, 17);
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin-left: 1rem;
+}
+
+.header__nav__boton:hover {
+    background-color: rgb(207, 131, 17);
+    border: #000213;
+}
+
+.header__lista__nav-dos {
+    display: inline-block;
+    max-width: 7vw;
+    border: solid black;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin-left: auto;
+    margin-right: 1rem;
+}
+
+.titulo {
+    max-width: max-content;
+    margin: 0 auto 1rem auto;
+    font-size: xx-large;
+    text-align: center;
+}
+.subtitulo {
+    max-width: max-content;
+    margin: 0 auto 1rem auto;
+    font-size: xx-large;
+    text-align: center;
+}
+.titulo__footer {
+    max-width: max-content;
+    margin: 0 auto 1rem auto;
+    font-size: xx-large;
+    text-align: center;
+}
+.p__footer{
+    text-align:center;
+    margin: 0 auto 1rem auto;
+    max-width: max-content;
+}
+.span__footer{
+    max-width: max-content;
+    margin: 0 auto 1rem auto;
+    font-size: xx-large;
+    text-align: center;
+}
+.footer__seguinos{
+    text-align: center;
+    max-width: max-content;
+    margin: 0 auto 1rem auto;
+
+}
+.footer__lista{
+    text-align: center;
+}
+.productos__tarjeta__titulo{
+    max-width:max-content;
+    margin: 0 auto 1rem auto;
+    font-size: xx-large;
+    text-align:left
+}
+.productos{ 
+ display: flex;
+justify-content: space-around;
+flex-direction: column;
+align-items: center;
+
+
+;}
+.productos__tarjeta{ 
+    display: flex;
+   justify-content: space-around;
+   flex-direction: column;
+   align-items: center;
+}
+.productos__tarjeta{
+    display: inline-block;
+    max-width: 7vw;
+    border: solid rgb(1, 2, 17);
+    border-radius: 10rem;
+    padding: 10rem;
+    margin-left: 15rem;
+}
